@@ -1,0 +1,132 @@
+
+/* Class = "UIButton"; normalTitle = "Getting Started"; ObjectID = "3oO-vz-qfv"; */
+"3oO-vz-qfv.normalTitle" = "Getting Started";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "6Nb-7j-Fl3"; */
+"6Nb-7j-Fl3.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "6cg-02-Heo"; */
+"6cg-02-Heo.title" = "Settings";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "9AU-ir-ka3"; */
+"9AU-ir-ka3.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UINavigationItem"; title = "Notifications"; ObjectID = "AkU-I6-1lP"; */
+"AkU-I6-1lP.title" = "Notifications";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "BNV-99-dga"; */
+"BNV-99-dga.placeholder" = "username";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "CfJ-j4-Mrd"; */
+"CfJ-j4-Mrd.placeholder" = "username";
+
+/* Class = "UIButton"; normalTitle = "LOGIN TO MY ACCOUNT"; ObjectID = "Cku-HO-gX1"; */
+"Cku-HO-gX1.normalTitle" = "LOGIN TO MY ACCOUNT";
+
+/* Class = "UITabBarItem"; title = "Notifications"; ObjectID = "DMc-2R-hMu"; */
+"DMc-2R-hMu.title" = "Notifications";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "IuR-nF-hGi"; */
+"IuR-nF-hGi.placeholder" = "password";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "LKw-85-OW2"; */
+"LKw-85-OW2.placeholder" = "email";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "Ml7-xt-jeW"; */
+"Ml7-xt-jeW.placeholder" = "password";
+
+/* Class = "UIButton"; normalTitle = "Edit Profile"; ObjectID = "MwK-nD-yZP"; */
+"MwK-nD-yZP.normalTitle" = "Edit Profile";
+
+/* Class = "UITextField"; placeholder = "phone number"; ObjectID = "OpD-6d-qEZ"; */
+"OpD-6d-qEZ.placeholder" = "phone number";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ow7-vX-Ren"; */
+"Ow7-vX-Ren.text" = "Label";
+
+/* Class = "UILabel"; text = "Thet Maung Maung Toe"; ObjectID = "Oz9-wB-HOB"; */
+"Oz9-wB-HOB.text" = "Thet Maung Maung Toe";
+
+/* Class = "UIButton"; normalTitle = "Create new account"; ObjectID = "Qx8-AJ-a8Q"; */
+"Qx8-AJ-a8Q.normalTitle" = "Create new account";
+
+/* Class = "UITabBarItem"; title = "Explore"; ObjectID = "R8U-uE-T0J"; */
+"R8U-uE-T0J.title" = "Explore";
+
+/* Class = "UILabel"; text = "Rate Us"; ObjectID = "TVD-pn-0sU"; */
+"TVD-pn-0sU.text" = "Rate Us";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TWL-FS-lT8"; */
+"TWL-FS-lT8.text" = "Label";
+
+/* Class = "UILabel"; text = "Help"; ObjectID = "UXf-vn-pCz"; */
+"UXf-vn-pCz.text" = "Help";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "XVU-vi-MbX"; */
+"XVU-vi-MbX.text" = "Notifications";
+
+/* Class = "UITextField"; placeholder = "retype password"; ObjectID = "XfP-OA-VFp"; */
+"XfP-OA-VFp.placeholder" = "retype password";
+
+/* Class = "UISegmentedControl"; Zjy-yx-jQu.segmentTitles[0] = "First"; ObjectID = "Zjy-yx-jQu"; */
+"Zjy-yx-jQu.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; Zjy-yx-jQu.segmentTitles[1] = "Second"; ObjectID = "Zjy-yx-jQu"; */
+"Zjy-yx-jQu.segmentTitles[1]" = "Second";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "akN-n4-wDD"; */
+"akN-n4-wDD.title" = "Home";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "b3e-rF-tDZ"; */
+"b3e-rF-tDZ.title" = "Settings";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "eWE-8Q-hWM"; */
+"eWE-8Q-hWM.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "start you new experience..."; ObjectID = "fUb-Uk-MVf"; */
+"fUb-Uk-MVf.text" = "start you new experience...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gN9-xs-0Kg"; */
+"gN9-xs-0Kg.text" = "Label";
+
+/* Class = "UILabel"; text = "Thank you for joining to our app and"; ObjectID = "gsS-7O-HuD"; */
+"gsS-7O-HuD.text" = "Thank you for joining to our app and";
+
+/* Class = "UINavigationItem"; title = "Explore"; ObjectID = "htn-pR-nGz"; */
+"htn-pR-nGz.title" = "Explore";
+
+/* Class = "UIButton"; normalTitle = "Forget password?"; ObjectID = "jWl-fY-CJ4"; */
+"jWl-fY-CJ4.normalTitle" = "Forget password?";
+
+/* Class = "UILabel"; text = "Welcome  Thet Paing Oo"; ObjectID = "kCE-87-ucv"; */
+"kCE-87-ucv.text" = "Welcome  Thet Paing Oo";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "n2u-b7-c0q"; */
+"n2u-b7-c0q.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nJQ-xE-5SA"; */
+"nJQ-xE-5SA.text" = "Label";
+
+/* Class = "UILabel"; text = "Create New Account"; ObjectID = "nKy-jE-7Mw"; */
+"nKy-jE-7Mw.text" = "Create New Account";
+
+/* Class = "UINavigationItem"; title = "Health Tips"; ObjectID = "nNa-ll-XkP"; */
+"nNa-ll-XkP.title" = "Health Tips";
+
+/* Class = "UILabel"; text = "About the app"; ObjectID = "nUs-cq-voN"; */
+"nUs-cq-voN.text" = "About the app";
+
+/* Class = "UINavigationItem"; title = "Contacts"; ObjectID = "vRX-Ud-QxF"; */
+"vRX-Ud-QxF.title" = "Contacts";
+
+/* Class = "UISegmentedControl"; wR2-kI-geq.segmentTitles[0] = "Hospitals"; ObjectID = "wR2-kI-geq"; */
+"wR2-kI-geq.segmentTitles[0]" = "Hospitals";
+
+/* Class = "UISegmentedControl"; wR2-kI-geq.segmentTitles[1] = "Doctors"; ObjectID = "wR2-kI-geq"; */
+"wR2-kI-geq.segmentTitles[1]" = "Doctors";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wj8-nz-e7y"; */
+"wj8-nz-e7y.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zfM-1E-fSE"; */
+"zfM-1E-fSE.text" = "Label";
