@@ -1,0 +1,13 @@
+//
+//  Development.xcconfig
+//  health_plus
+//
+//  Created by Thet Maung on 2/1/19.
+//  Copyright © 2019 Thet Maung. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+server_url  = 169.254.58.172:8080
+protocol    = http

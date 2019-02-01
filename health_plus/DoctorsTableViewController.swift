@@ -11,7 +11,8 @@ import UIKit
 class DoctorsTableViewController: UITableViewController {
     @IBOutlet var doctor_view: UITableView!
     
-    var list = ["Police", "Ambulance", "Fire", "Sakura Hospital", "Sanchaung Fire Station"]
+    var doctor_name = ["Dr. Yan Lynn Aung", "Dr. Thida Oo", "Dr. Aye Aye Thein", "Dr. Zay Ya Aye"]
+    var doctor_image = ["doc0", "doc1", "doc2", "doc3"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,15 +27,15 @@ class DoctorsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return list.count
+        return doctor_name.count
     }
     
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath ) as! DoctorsTableViewCell
         
-        cell.doctor_image.image = UIImage(named: "Neurologist")
-        cell.doctor_name.text = "Dr. Kyaw Kyaw Soe"
+        cell.doctor_image.image = UIImage(named: doctor_image[indexPath.row])
+        cell.doctor_name.text = doctor_name[indexPath.row]
         cell.doctor_type.text = "Neurologist"
         
         return cell
