@@ -21,7 +21,21 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         print("ifnroi");
-//        self.performSegue(withIdentifier: "loginview", sender: self)
+        let users =  UserDefaults.standard.string(forKey: "User")
+        if(users==nil){
+//            self.performSegue(withIdentifier: "loginview", sender: self)
+
+//            self.present(LoginViewController(), animated: true, completion: nil)
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewController = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+            self.navigationController?.pushViewController(newViewController, animated: true)
+            
+
+        }
+        else{
+            print("Greate")
+        }
+        
     }
     
 }

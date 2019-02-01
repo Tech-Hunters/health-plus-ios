@@ -18,7 +18,7 @@ class CollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        doctor_types = ["Neurologist", "Dermatologist", "Radiologist", "Psychiatric", "Surgeon"]
+        doctor_types = ["Neurologist", "Dermatologist", "Radiologist", "Psychiatrist", "Surgeon"]
     }
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -31,7 +31,7 @@ class CollectionViewController: UICollectionViewController {
         let width = cell.bounds.size.width
         let height = cell.bounds.size.height
         let backgroundImage = UIImageView(frame: CGRect(x:0, y:0, width:width, height:height))
-        backgroundImage.image = UIImage(named: "Neurologist")
+        backgroundImage.image = UIImage(named: doctor_types[indexPath.row])
         backgroundImage.contentMode =  UIView.ContentMode.scaleAspectFill
         backgroundImage.alpha = 0.5
         cell.insertSubview(backgroundImage, at: 0)

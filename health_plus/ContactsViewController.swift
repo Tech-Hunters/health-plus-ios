@@ -11,7 +11,8 @@ import UIKit
 class ContactsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var contacts_table: UITableView!
     
-    var list = ["Police", "Ambulance", "Fire", "Sakura Hospital", "Sanchaung Fire Station"]
+    var list = ["Police", "Emergency Ambulance", "Fire", "Victoria Hospital", "Bahosi Hospital"]
+    var ph_list = ["199", "09796928977", "01254000", "019666141", "012300631"]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.contacts_table.delegate = self
@@ -30,10 +31,25 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath ) as! ContactsTableViewCell
         
         cell.contact_name.text = list[indexPath.row]
-        cell.contact_phno.text = "199"
+        cell.contact_phno.text = ph_list[indexPath.row]
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let number = ph_list[indexPath.row]
+        
+        guard let url = URL(string: "tel://\(number)") else {
+            return //be safe
+        }
+        
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url)
+        } else {
+            UIApplication.shared.openURL(url)
+        }
+    }
+    
 
     /*
     // MARK: - Navigation

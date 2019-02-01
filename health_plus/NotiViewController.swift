@@ -11,7 +11,7 @@ import UIKit
 class NotiViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var noti_table: UITableView!
-    var list = ["a", "b", "c", "d", "e"];
+    var list = ["a",];
 
     override func viewDidLoad() {
         super.viewDidLoad()

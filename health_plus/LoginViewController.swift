@@ -7,6 +7,7 @@
 //
 
 import UIKit
+
 @IBDesignable extension UIButton {
     
     
@@ -46,6 +47,10 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        let loginButton = FBSDKLoginButton()
+        // Optional: Place the button in the center of your view.
+//        loginButton.center = view.center
+//        view.addSubview(loginButton)
         // Do any additional setup after loading the view, typically from a nib.
     }
     @IBAction func loginbtn(_ sender: Any) {
