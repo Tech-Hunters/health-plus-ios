@@ -117,6 +117,7 @@
 		C1B5AA912200990E0096A159 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		C1C02BBF2179FD14002997D0 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 		C1C1FD15217830A500B6C085 /* HealthTipsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipsTableViewCell.swift; sourceTree = "<group>"; };
+		C1CA7985220608CE008D6683 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C1EC522E217B9035001B3C38 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		C1EC5230217BD17A001B3C38 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +153,7 @@
 		C114DD6A216834CD00AFE376 = {
 			isa = PBXGroup;
 			children = (
+				C1CA7985220608CE008D6683 /* README.md */,
 				C114DD75216834CD00AFE376 /* health_plus */,
 				C114DD8A216834CF00AFE376 /* health_plusTests */,
 				C114DD95216834CF00AFE376 /* health_plusUITests */,
